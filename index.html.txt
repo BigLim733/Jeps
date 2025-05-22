@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JEPS2025</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .logo img {
+      max-width: 200px;
+    }
+    h1, h2, h3 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .game-entry {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+    .game-entry img {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+      margin-right: 10px;
+    }
+    .game-description {
+      flex: 1;
+    }
+    .button-red {
+      padding: 8px 16px;
+      background-color: #e74c3c;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    .button-red:hover {
+      background-color: #c0392b;
+    }
+    .button-blue {
+      padding: 8px 16px;
+      background-color: #2980b9;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    .button-blue:hover {
+      background-color: #1c5980;
+    }
+    .contact {
+      text-align: center;
+      font-size: 0.9em;
+      margin-top: 30px;
+      padding-top: 10px;
+      border-top: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <p>Espaço para a LOGO do JEPS2025</p>
+      <!-- <img src="caminho-da-logo.png" alt="Logo do JEPS2025"> -->
+    </div>
+
+    <h1>JEPS2025</h1>
+
+    <div class="section">
+      <h2>Períodos de Inscrição</h2>
+      <ul>
+        <li><strong>12 a 14 anos:</strong> 27 de Maio até 07 de Julho de 2025 (2011 a 2013)</li>
+        <li><strong>15 a 17 anos:</strong> 27 de Maio a 12 de Junho (2008 a 2010)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Inscrições - 12 a 14 anos</h2>
+      <div class="game-entry">
+        <img src="justdance.png" alt="Just Dance">
+        <div class="game-description">
+          <strong>Just Dance</strong>: jogo de dança interativo.
+          <a class="button-red" href="#">Inscrever-se</a>
+        </div>
+      </div>
+      <div class="game-entry">
+        <img src="leagueoflegends.png" alt="League of Legends">
+        <div class="game-description">
+          <strong>League of Legends</strong>: MOBA competitivo.
+          <a class="button-red" href="#">Inscrever-se</a>
+        </div>
+      </div>
+      <div class="game-entry">
+        <img src="streetfighter.png" alt="Street Fighter">
+        <div class="game-description">
+          <strong>Street Fighter</strong>: clássico jogo de luta.
+          <a class="button-red" href="#">Inscrever-se</a>
+        </div>
+      </div>
+      <div class="game-entry">
+        <img src="freefire.png" alt="Free Fire">
+        <div class="game-description">
+          <strong>Free Fire 1x1</strong>: battle royale rápido.
+          <a class="button-red" href="#">Inscrever-se</a>
+        </div>
+      </div>
+      <div class="game-entry">
+        <img src="clashroyale.png" alt="Clash Royale">
+        <div class="game-description">
+          <strong>Clash Royale</strong>: jogo de estratégia em tempo real.
+          <a class="button-red" href="#">Inscrever-se</a>
+        </div>
+      </div>
+      <div class="game-entry">
+        <img src="valorant.png" alt="Valorant">
+        <div class="game-description">
+          <strong>Valorant</strong>: FPS tático em equipe.
+          <a class="button-red" href="#">Inscrever-se</a>
+        </div>
+      </div>
+      <div class="game-entry">
+        <img src="tekken7.png" alt="Tekken 7">
+        <div class="game-description">
+          <strong>Tekken 7</strong>: jogo de luta 3D.
+          <a class="button-red" href="#">Inscrever-se</a>
+        </div>
+      </div>
+      <div class="game-entry">
+        <img src="fc24.png" alt="FC 24">
+        <div class="game-description">
+          <strong>FC 24</strong>: futebol virtual.
+          <a class="button-red" href="#">Inscrever-se</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Inscrições - 15 a 17 anos</h2>
+      <div class="game-entry">
+        <img src="justdance.png" alt="Just Dance">
+        <div class="game-description">
+          <strong>Just Dance</strong>: jogo de dança interativo.
+          <a class="button-blue" href="#">Inscrever-se</a>
+        </div>
+      </div>
+      <div class="game-entry">
+        <img src="leagueoflegends.png" alt="League of Legends">
+        <div class="game-description">
+          <strong>League of Legends</strong>: MOBA competitivo.
+          <a class="button-blue" href="#">Inscrever-se</a>
+        </div>
+      </div>
+      <div class="game-entry">
+        <img src="streetfighter.png" alt="Street Fighter">
+        <div class="game-description">
+          <strong>Street Fighter</strong>: clássico jogo de luta.
+          <a class="button-blue" href="#">Inscrever-se</a>
+        </div>
+      </div>
+      <div class="game-entry">
+        <img src="freefire.png" alt="Free Fire">
+        <div class="game-description">
+          <strong>Free Fire 1x1</strong>: battle royale rápido.
+          <a class="button-blue" href="#">Inscrever-se</a>
+        </div>
+      </div>
+      <div class="game-entry">
+        <img src="clashroyale.png" alt="Clash Royale">
+        <div class="game-description">
+          <strong>Clash Royale</strong>: jogo de estratégia em tempo real.
+          <a class="button-blue" href="#">Inscrever-se</a>
+        </div>
+      </div>
+      <div class="game-entry">
+        <img src="valorant.png" alt="Valorant">
+        <div class="game-description">
+          <strong>Valorant</strong>: FPS tático em equipe.
+          <a class="button-blue" href="#">Inscrever-se</a>
+        </div>
+      </div>
+      <div class="game-entry">
+        <img src="tekken7.png" alt="Tekken 7">
+        <div class="game-description">
+          <strong>Tekken 7</strong>: jogo de luta 3D.
+          <a class="button-blue" href="#">Inscrever-se</a>
+        </div>
+      </div>
+      <div class="game-entry">
+        <img src="fc24.png" alt="FC 24">
+        <div class="game-description">
+          <strong>FC 24</strong>: futebol virtual.
+          <a class="button-blue" href="#">Inscrever-se</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <p>Em caso de dúvidas ou problemas com o site, entre em contato:</p>
+      <p>Email: <a href="mailto:contatopablo2024@gmail.com">contatopablo2024@gmail.com</a></p>
+      <p>Telefone: <a href="tel:+5545999734757">(45) 99973-4757</a></p>
+    </div>
+  </div>
+</body>
+</html>
